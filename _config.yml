@@ -1,28 +1,40 @@
-name: level
-favicon: null
-layout_spectrum: 0.24367248080670834
-typography_spectrum: 0.4674091774504632
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.2436724808067083
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0
+  brandStrength: 0.41933887405321
+  lightness: 0.6935484
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-  brandStrength: 0.41933887405321
-  lightness: 0.5904717156663537
-  saturation: 0.2779373871162534
-  rhythmicContrast: 0.1246691937558353
-purpose: []
+  rhythmicContrast: 0.6290323
+typography_spectrum: 0.8315412
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: level
